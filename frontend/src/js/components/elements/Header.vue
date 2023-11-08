@@ -15,12 +15,12 @@ defineProps({
                     <img v-bind:src="logo_src" width="120" alt="AZUKO">
                 </router-link>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    data-bs-target="#nav_links_content" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="fa-solid fa-bars fa-xl"></i>
                 </button>
 
-                <div class="collapse navbar-collapse d-flex justify-content-between">
+                <div class="collapse navbar-collapse d-flex justify-content-between" id="nav_links_content">
                     <div class="navbar_links">
                         <router-link to="/home">HOME</router-link>
                         <router-link class="mx-2" to="/playlist">PLAYLIST</router-link>
