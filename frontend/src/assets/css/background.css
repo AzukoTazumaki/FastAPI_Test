@@ -1,0 +1,114 @@
+.main-3 {
+  height: 150dvh;
+}
+
+.main-1 {
+  background-image: url(../assets/images/bg/bg_main_1.jpg);
+}
+
+.main-3,
+.about_azuko {
+  background-image: url(../assets/images/bg/bg_main_3.jpg);
+}
+
+.main-2 {
+  background-color: var(--dark-gray-azuko-rgb);
+}
+
+.main-2-row {
+  height: 100dvh;
+}
+
+@media screen and (max-width: 1200px) {
+  .main-2-row {
+    height: 180dvh;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .main-2-row {
+    height: 210dvh;
+  }
+}
+
+.main-3 {
+  height: 100dvh;
+}
+
+@media screen and (max-width: 1200px) {
+  .main-3 {
+    height: 150dvh;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .main-3 {
+    height: 190dvh;
+  }
+}
+
+#playlist_projects {
+  height: 100dvh;
+}
+
+@media screen and (max-width: 1300px) {
+  #playlist_projects {
+    height: 150dvh;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #playlist_projects {
+    height: 190dvh;
+  }
+}
+
+#albums {
+  height: 100%;
+  padding-top: 25vh;
+  padding-bottom: 25vh;
+}
+
+.products {
+  background-image: url(../assets/images/bg/bg_products.jpg);
+}
+
+#projects {
+  background-image: url(../assets/images/bg/bg_projects.jpg);
+}
+
+.album_1 {
+  background-image: url(../assets/images/bg/albums/FUNNY\ but\ NOBODY.jpg);
+}
+
+.album_2 {
+  background-image: url(../assets/images/bg/albums/with\ love\ from\ Azuko.jpg);
+}
+
+.album_3 {
+  background-image: url(../assets/images/bg/albums/ВРЕМЯ\ ПЕРЕМЕН.jpg);
+}
+
+.album_4 {
+  background-image: url(../assets/images/bg/albums/Highway\ Of\ Love\ \(Deluxe\).jpg);
+}
+
+.album_5 {
+  background-image: url(../assets/images/bg/albums/Highway\ Of\ Love.jpg);
+}
+
+.album_6 {
+  background-image: url(../assets/images/bg/albums/Mileran\ Vibes.jpg);
+}
+
+.album_7 {
+  background-image: url(../assets/images/bg/albums/Life\ Is\ Full\ Of\ Lies\ 2\ \(Before\ Love\ Story\).jpg);
+}
+
+.album_8 {
+  background-image: url(../assets/images/bg/albums/Life\ Is\ Full\ Of\ Lies.jpg);
+}
+
+#playlist {
+  background-image: url(../assets/images/bg/bg_playlist.jpg);
+}

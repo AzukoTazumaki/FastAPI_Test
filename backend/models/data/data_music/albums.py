@@ -7,7 +7,7 @@ albums_list: list = [
         Punk, Rap and others, with a total of 23 tracks, each of which 
         contains its own story.
         """,
-        'date_release': '2023-11-04',
+        'date_release': '2023-11-08',
         'cover': 'funny_but_nobody'
     },
     {

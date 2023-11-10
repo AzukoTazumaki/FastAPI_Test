@@ -5,7 +5,12 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
     server: {
-        open: './templates/index.html'
+        open: './index.html',
+        host: true,
+        port: 3000
+    },
+    preview: {
+        port: 8080
     },
     plugins: [
         vuePlugin(),

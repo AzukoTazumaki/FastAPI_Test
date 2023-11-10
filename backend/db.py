@@ -1,5 +1,5 @@
 from models.tables.Products import Products
-from models.models import InitEnvironmentSettings
+from models.init_db import InitEnvironmentSettings
 from sqlmodel import select, desc, create_engine, Session
 from models.tables.Albums import Albums
 from models.tables.Tracks import Tracks
@@ -9,7 +9,7 @@ from models.tables.Genres import Genres
 class Selections(InitEnvironmentSettings):
     def __init__(self):
         super().__init__()
-        self.engine = create_engine(self.db_music_url)
+        self.engine = create_engine(self.db_url)
         self.session = Session(bind=self.engine)
         self.albums_statement = select(Albums).group_by(Albums)
         self.singles_statement = select(Tracks).join(Tracks.single).group_by(Tracks)
@@ -28,8 +28,6 @@ class Selections(InitEnvironmentSettings):
         else:
             one_album_statement = self.albums_statement.where(Albums.id == album_id)
             one_album = self.session.execute(one_album_statement).scalars().one()
-            for track in one_album.tracks:
-                print(track.id)
             return one_album
 
     def select_singles(self):
