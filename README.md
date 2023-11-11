@@ -22,7 +22,7 @@ cd <name_of_your_directory>
 Клонируйте репозиторий
 
 ```bash
-git clone https://github.com/AzukoTazumaki/Azuko.git
+git clone https://github.com/AzukoTazumaki/FastAPI_Test.git
 ```
 
 Перейдите в `Azuko`
