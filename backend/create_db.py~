@@ -17,6 +17,6 @@ def create_projects():
 if __name__ == '__main__':
     try:
         create_tables()
-        print("INFO: Database successfully created")
+        print("\033[32m{}".format('INFO: Database successfully created (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧'))
     except IntegrityError:
-        print("INFO: Database already exists")
+        print("\033[31m{}".format('INFO: Database already exists ¯\_(ツ)_/¯'))
