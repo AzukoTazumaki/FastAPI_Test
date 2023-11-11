@@ -4,7 +4,7 @@
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDFxdjIwZDcwa3JpdDFmOGYxcHFwbmI0bnV3bXg0OXdmaWhiZHZ0bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oV7m7OaPe86aJzZwRC/giphy.gif" width="500"/>
 </div>
 
-# Azuko: FastAPI + Vue 3 + Vite (beta v1.0)
+# Azuko: FastAPI + Vue 3 + Vite + Postgres (beta v1.0)
 
 `Azuko` – это статический сайт для прослушивания музыки, где Вы (в будущем) сможете
 заказать продукты от битов до написания текста.
